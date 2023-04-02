@@ -1,0 +1,75 @@
+header {
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+}
+
+.ramadan {
+    width: 30px;
+}
+
+.namaz {
+    width: 30px;    
+}
+
+.tafsir {
+    width: 30px;
+}
+
+.books {
+    width: 30px;
+}
+
+.moon {
+    width: 30px;
+}
+
+.sheet {
+    width: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav li:first-child {
+    background-color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav li:last-child {
+    background-color: green;
+    margin-right: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav li:nth-child(5) {
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav a:active {
+    color: #fff;
+}
+
+nav a:focus {
+    box-shadow: 0 0 2px 8px #000;
+    background-color: black;
+    color: blueviolet;  
+}

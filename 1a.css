@@ -1,0 +1,83 @@
+.title a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    width: 300px;
+    display: flex;
+}
+
+.card {
+    position: relative;
+    margin-right: 20px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.price {
+margin: 5px 0 5px 0;
+}
+
+.price1 {
+    color: #BDBDBD;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.price2 {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    background-color: green;
+    width: 100px;
+    height: 25px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: greenyellow;
+
+}
+
+.card .img-top {
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: all 2s;
+}
+
+.card:hover .img-top {
+    /* display: inline; */
+    opacity: 1;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px black;
+    color: green;
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.card:hover .price1 {
+    color: green;   
+}
+
+.card:hover .price2 {
+    color: green;   
+}
+
+
+
